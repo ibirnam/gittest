@@ -1,5 +1,5 @@
 def factorial(x):
-    if (x < 1):
+    if (x < 2):
         return 1
     elif (x > 1):
         print("Hahaha! I broke your code Ian! >:)")
