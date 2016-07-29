@@ -1,7 +1,5 @@
 def factorial(x):
-    if (x < 10000):
-        return 0
-    elif (x > 1):
-        print("Hahaha! I broke your code Ian! >:)")
+    if (x < 2):
+        return 1
     else:
         return (x * (factorial(x-1)))
